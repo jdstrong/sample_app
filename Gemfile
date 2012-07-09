@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
-gem 'pg', '0.9.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.6'
@@ -31,3 +30,6 @@ group :test do
   gem 'libnotify', '0.5.9'
 end
 
+group :production do
+  gem 'pg', '0.12.2'
+end
