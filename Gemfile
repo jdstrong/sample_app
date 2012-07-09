@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
+gem 'pg', '0.9.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.6'
@@ -8,7 +9,7 @@ group :development, :test do
   gem 'guard-rspec', '0.5.5'
   gem 'taps'
   gem 'rvm'
-  gem 'pg', '0.9.0'
+
 end
 
 # Gems used only for assets and not required
