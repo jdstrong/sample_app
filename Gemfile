@@ -8,6 +8,7 @@ group :development, :test do
   gem 'guard-rspec', '0.5.5'
   gem 'taps'
   gem 'rvm'
+  gem 'pg', '0.9.0'
 end
 
 # Gems used only for assets and not required
